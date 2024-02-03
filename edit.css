@@ -90,7 +90,7 @@
         min-width: 300px;
         padding: 10px;
     }
-    .admin-edit section div:nth-child(6) {
+    .admin-edit section div:nth-last-child(1) {
         margin-right: 50px;
     }
      .admin-edit section div img {
