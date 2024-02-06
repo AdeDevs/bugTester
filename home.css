@@ -1,0 +1,173 @@
+footer {
+    background-color: #1f2024;
+    width: 100%;
+    padding: 30px 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer img {
+    width: 10%;
+}
+
+footer .footer-box {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.footer-box>div {
+    width: 400px;
+    border-radius: 10px 10px;
+    height: fit-content;
+}
+
+.footer-box .footer-recent nav {
+    background-color: #333;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+}
+
+.footer-box .footer-recent nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.footer-box .footer-recent nav img {
+    width: 20px;
+}
+
+.footer-box .footer-recent>div {
+    box-sizing: border-box;
+    border-radius: 10px 10px;
+    padding: 0 10px;
+}
+
+.footer-box .footer-recent div .footer-card {
+    margin: 10px auto;
+    align-items: center;
+    display: flex;
+}
+
+.footer-box .footer-recent div .footer-card .footer-image img {
+    width: 120px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.footer-box .footer-recent div .footer-card h2 {
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.footer-box .footer-recent div .footer-card .news-preview {
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+.footer-box .footer-recent div .footer-card .news-preview div {
+    color: #808080;
+    align-items: center;
+    display: flex;
+    font-weight: lighter;
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+}
+
+.footer-box .footer-recent div .footer-card .news-preview div img {
+    width: 11px;
+    margin-right: 2px;
+}
+
+.footer-box .footer-modified nav {
+    padding: 20px 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-box .footer-modified nav h1 {
+    border-bottom: 2px solid #fff;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.footer-box .footer-modified>div {
+    box-sizing: border-box;
+    border-radius: 10px 10px;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-box .footer-modified div section {
+    box-sizing: border-box;
+    margin: 10px auto;
+    width: 170px;
+}
+
+.footer-box .footer-modified div section>img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.footer-box .footer-modified div section {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer-box .footer-modified div section .modified-foot {
+    font-family: "Poppins", sans-serif;
+    color: gray;
+    font-weight: lighter;
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+}
+
+.footer-box .footer-modified div section .modified-foot img {
+    width: 11px;
+    margin-right: 5px;
+}
+
+@media (max-width:1300px) {
+    .footer-box>div {
+        margin: 10px auto;
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-box>div {
+        width: 100%;
+    }
+    .footer-box .footer-modified div section {
+        width: 45%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin: 5px auto;
+    }
+    .footer-box .footer-modified>div {
+        padding: 0;
+    }
+    .footer-box .footer-modified div section {
+        font-size: 10px;
+    }
+}
